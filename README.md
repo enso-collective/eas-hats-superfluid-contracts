@@ -37,7 +37,9 @@ Replace `flowSenderAddress` in the script with the address of the contract deplo
 
 ## 6 - Create hat and configure hat properties
 
-Copy the contract address from above and replace the `streamSenderAddress` in the `AttesterResolver.sol` contract with it, then replace `hatId` in the same file with your hat ID
+Copy the contract address from above and replace the `streamSenderAddress` in the `AttesterResolver.sol` contract with it, then replace `hatId` in the same file with your hat ID. Make sure to set the adjust the number of hat wearers.
+
+![Hat wearers](wearers.png "Wearers")
 
 ## 7 - Deploy AttesterResolver contract
 
@@ -51,4 +53,6 @@ Make sure to replace the `flowSenderAddress` with the address of the contract de
 
 ## 9 - Grant automatic permission to revoke hats to the attesterResolver contract deployed in step 7, also make sure to transfer admin hat to the same contract address
 
-## 10 - he attesterResolver contract address deployed in step 7 as the EAS resolver contract address
+![Revocation permission](revocation.png "Grant automatic permission to revoke hats")
+
+## 10 - Use the attesterResolver contract address deployed in step 7 as the EAS resolver contract address
