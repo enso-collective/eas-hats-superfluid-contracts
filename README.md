@@ -32,7 +32,7 @@ Note - This contract uses the super bento token. Can set it up to use any other 
 
 ## 5 - Run `gainSuperToken` script
 
-`npx hardhat run scripts/deployFlowSender.ts`
+`npx hardhat run scripts/gainSuperToken.ts`
 Replace `flowSenderAddress` in the script with the address of the contract deployed in step 3
 
 ## 6 - Create hat and configure hat properties
